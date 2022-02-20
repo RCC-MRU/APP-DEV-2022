@@ -1,4 +1,4 @@
-import { View, Text, TextInput } from "react-native";
+import { View, Text, TextInput, StyleSheet } from "react-native";
 import { useState } from "react";
 
 export default function Main() {
@@ -13,13 +13,7 @@ export default function Main() {
       </Text>
       <View style={{ marginTop: 10 }}>
         <TextInput
-          style={{
-            borderRadius: 10,
-            borderColor: "red",
-            borderWidth: 2,
-            paddingHorizontal: 20,
-            paddingVertical: 15,
-          }}
+          style={styles.textInput}
           onChangeText={setText}
           autoCapitalize="words"
           defaultValue="Turel"
@@ -29,3 +23,13 @@ export default function Main() {
     </View>
   );
 }
+
+const styles = StyleSheet.create({
+  textInput: {
+    borderRadius: 10,
+    borderColor: "red",
+    borderWidth: 2,
+    paddingHorizontal: 20,
+    paddingVertical: 15,
+  },
+});
