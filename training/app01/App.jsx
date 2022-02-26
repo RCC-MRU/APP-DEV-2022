@@ -1,10 +1,11 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
 
-import Main from "./Main";
-import Header from "./Header";
-import Footer from "./Footer";
-import Flexbox from "./Flexbox";
+import Main from "./src/screens/Main";
+import Header from "./src/screens/Header";
+import Footer from "./src/screens/Footer";
+import Flexbox from "./src/screens/Flexbox";
+import FetchData from "./src/screens/FetchData";
 
 export default function App() {
   return (
@@ -13,8 +14,9 @@ export default function App() {
       {/* <Header />
       <Text style={{ marginHorizontal: 10 }}>Hello world</Text>
       <Main />
-      <Footer /> */}
-      <Flexbox />
+      <Footer />
+      <Flexbox /> */}
+      <FetchData />
     </View>
   );
 }
