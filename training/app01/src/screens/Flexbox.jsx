@@ -48,7 +48,7 @@ const styles = StyleSheet.create({
   flex: {
     backgroundColor: "green",
     flex: 1,
-    // flexDirection: "row",
+    flexDirection: "row",
     justifyContent: "space-evenly",
     alignItems: "center",
   },
