@@ -1,0 +1,3 @@
+[submodule "project01-todo-app/Khushi-ToDoApp/ToDoApp"]
+	path = project01-todo-app/Khushi-ToDoApp/ToDoApp
+	url = https://github.com/RCC-MRU/APP-DEV-2022/tree/khushi/project01-todo-app
